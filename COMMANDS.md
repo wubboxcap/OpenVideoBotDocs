@@ -14,7 +14,7 @@ The `ovb [<arg1>=<val1>,<arg2>=<val2>,...]` commands takes parameters and edits 
 ### Download command:  
 The `download <video>` command takes one parameter `video` as either a search query or URL.
     
-    Example: `download chev`, searches for "funny video" and downloads it up to 8mb; also supports URLs
+    Example: `download chevron commercials`, searches for "download chevron commercials" and downloads it up to 25mb; also supports URLs
 
 ### Concat command:  
 The `concat <n> [<video1>, <video2>, ...]` command, which can take in `<n>` videos and concatinate them.
