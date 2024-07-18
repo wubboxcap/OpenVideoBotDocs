@@ -14,14 +14,14 @@ The `ovb [<arg1>=<val1>,<arg2>=<val2>,...]` commands takes parameters and edits 
 ### Download command:  
 The `download <video>` command takes one parameter `video` as either a search query or URL.
     
-    Example: `download chevron commercials`, searches for "download chevron commercials" and downloads it up to 25mb; also supports URLs
+    Example: `download chevron commercials`, searches for "chevron commercials" and downloads it up to 25mb; also supports URLs
 
 ### Concat command:  
 The `concat <n> [<video1>, <video2>, ...]` command, which can take in `<n>` videos and concatinate them.
 
     You can type the start of the filename  in order to order them 
     
-    Example `concat 2 g h` (say a channel has two recent videos "hello.mp4" and "goodbye.mp4", this concatinates the videos with `goodbye.mp4` coming first)
+    Example `concat 2 c p` (say a channel has two recent videos "colgate.mp4" and "pocoyo.mp4", this concatinates the videos with `colgate.mp4` coming first)
 
 ## Metacommands:
 
@@ -34,13 +34,13 @@ When doing an editing command, the order is as followed:
     Attachments > attachments of replied to message > recent messages in channel
     
 ### Command chaining:
-You can link together commands using `>>` between them. For example, `download Chevron Commercial >> destroy speed 5, toptext chevron car lore` would download `Chevron Commercial` and then speed up the video with a caption reading `chevron car lore`
+You can link together commands using `>>` between them. For example, `download your teeth were made >> destroy speed 5, toptext chevron car lore` would download `your teeth were made` and then speed up the video with a caption reading `chevron car lore`
     
 By adding `!` at the start of a command, the bot, when replying to itself, will override the previous message by deleting it before sending the result.
     
-    Example: !download woman dancing >> !destroy e 30, speed 5, mute, music penis music, musicskip 8 >> download man dancing >> !destroy e 30, speed 5, mute, music dramatic music, musicskip 25, volume 2 >> concat >> cap face off
+    Example: download your teeth were made >> destroy speed 5, toptext chevron car lore
 
-    Will download two videos, speed up, mute, add a song and caption to them, and then finally concatinate them
+    Will download a video, speed up, add a caption to them.
 
 ## Command list: (Same as VEB)
 ***
